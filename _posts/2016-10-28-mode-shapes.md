@@ -6,3 +6,5 @@ author: Yichen Zhu
 ---
 
 # plot mode shape
+
+![mode shape](https://github.com/zhuyichen/Bayoma/raw/gh-pages/img/news/synmodeshapes-sixmodes.avi.gif)
