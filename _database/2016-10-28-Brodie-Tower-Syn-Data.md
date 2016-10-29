@@ -36,18 +36,32 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
 
 - 4 triaxial servo-accelerometers with individual high precision clock
 
-
+<center>
+ <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/sensor.jpg" style="width: 600px;" >
+ <p><i> Figure 3. Sensor </i></p>
+</center>
 
 ### Setup
 ---------
 
 - Seven setups, each 15 min at 50 Hz.
 
+<center>
+ <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/synsetup.gif" style="width: 600px;" >
+ <p><i> Figure 4. Setup </i></p>
+</center>
 
 
 ### Measured Data
 --------------------
 - PSD and SV spectrum, with selected band and initial guess shown
+
+
+<center>
+ <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/Syn-6F-SVD.jpg" style="width: 600px;" >
+ <p><i> Figure 5. SVD of 6F </i></p>
+</center>
+
 
 ### Modal ID
 -----------
