@@ -42,3 +42,7 @@ descriptions:
 
 collections:
 - database
+
+collections:
+  database:
+    output: true
