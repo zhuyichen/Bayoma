@@ -56,25 +56,25 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
 --------------------
 - PSD and SV spectrum, with selected band and initial guess shown
 
-
 <center>
  <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/Syn-6F-SVD.jpg" style="width: 600px;" >
  <p><i> Figure 5. SVD of 6F </i></p>
 </center>
 
 
-### Modal ID
+### Identification Results
 -----------
 - Method: BAYOMA multi-mode for modes 1-2; single mode for modes 3-6
 
+<center>
+ <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/synidresults.gif" style="width: 600px;" >
+ <p><i> Figure 6. Identification Results </i></p>
+</center>
 
 
 
 ### Download
 --------------
+#### [Click here][dl] to download the data files.
 
-
-
-
-
-![mode shape](https://github.com/zhuyichen/Bayoma/raw/gh-pages/img/news/synmodeshapes-sixmodes.avi.gif)
+[dl]: http://gofile.me/3sin6/7KGiNJPPb
