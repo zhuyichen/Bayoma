@@ -7,14 +7,17 @@ permalink: /work/
 ---
 
 **Well separated mode:**
+
 > Au, S.-K. (2011). “Fast Bayesian FFT method for ambient modal identification with separated modes.” *Journal of Engineering Mechanics*
 
 **Multiple Modes:**
+
 > Au, S.-K. (2012a). “Fast Bayesian ambient modal identification in the frequency domain, Part I: Posterior most probable value.” *Mechanical Systems and Signal Processing*, Elsevier, 26, 60–75.
 
 > Au, S.-K. (2012b). “Fast Bayesian ambient modal identification in the frequency domain, Part II: Posterior uncertainty.” *Mechanical Systems and Signal Processing*, Elsevier, 26, 76–90.
 
 **Multiple Setup:**
+
 > Au, S., and Zhang, F. (2012). “Fast Bayesian ambient modal identification incorporating multiple setups.” *Journal of Engineering Mechanics*, (July), 800–815.
 
 > Zhang, F. L., Au, S. K., and Lam, H. F. (2014). “Assessing uncertainty in operational modal analysis incorporating multiple setups using a Bayesian approach.” *Structural Control and Health Monitoring*
