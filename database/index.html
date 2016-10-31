@@ -16,6 +16,8 @@ permalink: /database/
     </div>
   </div>
 </section>
+
+<!--
 {% for post in site.database %}
 <div class="post-area">
   <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
@@ -25,3 +27,73 @@ permalink: /database/
   </p>
 </div>
 {% endfor %}
+-->
+
+
+{% for post in site.database %}
+<div class="post-area">
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for event names...">
+<table id="myTable">
+  <tr class="header">
+    <th style="width:10%;"><center>Date</center></th>
+    <th style="width:60%;"><center>Event</center></th>
+    <th style="width:10%;"><center>Setup No.</center></th>
+    <th style="width:10%;"><center>Sensor No.</center></th>
+    <th style="width:10%;"><center>Data Download</center></th>
+  </tr>
+  <tr>
+    <td>
+      <center>
+        <p>{{ post.date | date_to_long_string }}</p>
+      </center>
+    </td>
+    <td>
+      <center>
+        <a style="font-size:15px; line-height:28px" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </center>
+    </td>
+    <td>
+      <center>
+        <p>{{ post.setupno }}</p>
+      </center>
+    </td>
+    <td>
+      <center>
+        <p>{{ post.sensorno }}</p>
+      </center>
+    </td>
+    <td>
+      <center>
+        <p>{{ post.datadl }}</p>
+      </center>
+    </td>
+  </tr>
+
+
+</table>
+</div>
+{% endfor %}
+
+
+<script>
+function myFunction() {
+  // Declare variables
+  var input, filter, table, tr, td, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+
+  // Loop through all table rows, and hide those who don't match the search query
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[1];
+    if (td) {
+      if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }
+  }
+}
+</script>
