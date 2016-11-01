@@ -75,6 +75,7 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
   </td>
  </tr>
 </table>
+
 ### * The initial guess and selected frequency band for each mode are shown in the root singular value spectrum with circles and the symbol '[-]'.
 
 ## Identification Results
@@ -246,6 +247,7 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
 </tr>
 
 </table>
+
 ### * c.o.v. (coefficient of variation): the ratio of the square root of variance to the MPV value
 
 <center>
