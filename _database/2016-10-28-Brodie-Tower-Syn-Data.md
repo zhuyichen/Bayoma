@@ -17,7 +17,7 @@ datadl: Available
 
 #### Type: Reinforced concrete building, 7-storeys
 
-#### Gross dimensions: (some indicative dimension just to give an idea)
+#### Gross dimensions: About 25m Width x 28m Depth x 25m Height
 
 #### Sensor: 4 triaxial servo-accelerometers with individual high precision clock
 
@@ -59,12 +59,23 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
 
 ## Power Spectrum and Singular Value Spectrum
 --------------------
-
-<center>
- <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/Syn-6F-SVD.jpg" style="width: 600px;" >
- <p><i> Figure 5. SVD of 6F </i></p>
-</center>
-
+<table>
+ <tr>
+  <td>
+   <center>
+    <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/psd.png" style="width: 600px;" >
+    <p><i> Figure 5. Root Power Spectrum of 6F </i></p>
+    </center>
+  </td>
+  <td>
+   <center>
+    <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/svd.png" style="width: 600px;" >
+    <p><i> Figure 6. Root Singular Value Spectrum of 6F </i></p>
+    </center>
+  </td>
+ </tr>
+</table>
+#### * The initial guess and selected frequency band for each mode are shown in the root singular value spectrum with circles and the symbol '[-]'.
 
 ## Identification Results
 -----------
@@ -238,7 +249,7 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
 
 
 <center>
- <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/synidresults.gif" style="width: 600px;" >
+ <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/synidresults.gif" style="width: 800px;" >
  <p><i> Figure 6. Identification Results </i></p>
 </center>
 
