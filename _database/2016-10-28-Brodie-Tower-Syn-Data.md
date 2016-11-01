@@ -88,31 +88,151 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
     <th style="width:10%;" ><center>MPV</center></th>
     <th style="width:10%;" ><center>c.o.v.</center></th>
   </tr>
-  <tr>
-    <td><center>1</center></td>
-    <td><center>2.710</center></td>
-    <td><center>2.710</center></td>
-    <td><center>2.710</center></td>
-    <td><center>2222</center></td>
-    <td><center>1</center></td>
-    <td><center>1</center></td>
-    <td><center>1</center></td>
-    <td><center>1</center></td>
-    <td><center><button id="myBtn">View</button></center>
-     <!-- The Modal -->
-     <div id="myModal" class="modal">
-     <!-- Modal content -->
-      <div class="modal-content">
-      <span class="close">x</span>
-      <center>
-      <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/synidresults.gif" style="width: 600px;" >
-      <p><i> Figure 6. Identification Results </i></p>
-      </center>
-      </div>
-     </div>
 
-    </td>
-  </tr>
+<tr>
+ <td><center> 1 </center></td>
+ <td><center> 2.424 </center></td>
+ <td><center> 0.108 </center></td>
+ <td><center> 0.989 </center></td>
+ <td><center> 14.709 </center></td>
+ <td><center> 1.065 </center></td>
+ <td><center> 8.309 </center></td>
+ <td><center> 1.727 </center></td>
+ <td><center> 1.384 </center></td>
+
+ <td><center><a href="#openModal1">View</a></center>
+ <div id="openModal1" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+    <center>
+    <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/idmode1.avi.gif" style="width: 600px;" >
+    <p><i>Identification Results Mode 1</i></p>
+    </center>
+	</div>
+ </div>
+ </td>
+
+</tr>
+<tr>
+ <td><center> 2 </center></td>
+ <td><center> 2.705 </center></td>
+ <td><center> 0.127 </center></td>
+ <td><center> 0.963 </center></td>
+ <td><center> 16.003 </center></td>
+ <td><center> 1.089 </center></td>
+ <td><center> 10.181 </center></td>
+ <td><center> 1.916 </center></td>
+ <td><center> 1.445 </center></td>
+
+ <td><center><a href="#openModal2">View</a></center>
+ <div id="openModal2" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+    <center>
+    <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/idmode2.avi.gif" style="width: 600px;" >
+    <p><i>Identification Results Mode 2</i></p>
+    </center>
+	</div>
+</div>
+</td>
+
+</tr>
+<tr>
+ <td><center> 3 </center></td>
+ <td><center> 3.752 </center></td>
+ <td><center> 0.066 </center></td>
+ <td><center> 0.818 </center></td>
+ <td><center> 9.903 </center></td>
+ <td><center> 0.992 </center></td>
+ <td><center> 4.389 </center></td>
+ <td><center> 1.014 </center></td>
+ <td><center> 0.961 </center></td>
+
+ <td><center><a href="#openModal3">View</a></center>
+ <div id="openModal3" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+    <center>
+    <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/idmode3.avi.gif" style="width: 600px;" >
+    <p><i>Identification Results Mode 3</i></p>
+    </center>
+	</div>
+ </div>
+ </td>
+
+</tr>
+<tr>
+ <td><center> 4 </center></td>
+ <td><center> 7.403 </center></td>
+ <td><center> 0.168 </center></td>
+ <td><center> 2.644 </center></td>
+ <td><center> 12.683 </center></td>
+ <td><center> 0.558 </center></td>
+ <td><center> 9.940 </center></td>
+ <td><center> 1.859 </center></td>
+ <td><center> 0.733 </center></td>
+
+ <td><center><a href="#openModal4">View</a></center>
+ <div id="openModal4" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+    <center>
+    <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/idmode4.avi.gif" style="width: 600px;" >
+    <p><i>Identification Results Mode 4</i></p>
+    </center>
+	</div>
+ </div>
+ </td>
+
+</tr>
+<tr>
+ <td><center> 5 </center></td>
+ <td><center> 8.003 </center></td>
+ <td><center> 0.147 </center></td>
+ <td><center> 2.546 </center></td>
+ <td><center> 8.403 </center></td>
+ <td><center> 0.863 </center></td>
+ <td><center> 6.081 </center></td>
+ <td><center> 1.788 </center></td>
+ <td><center> 0.621 </center></td>
+
+ <td><center><a href="#openModal5">View</a></center>
+ <div id="openModal5" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+    <center>
+    <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/idmode5.avi.gif" style="width: 600px;" >
+    <p><i>Identification Results Mode 5</i></p>
+    </center>
+	</div>
+ </div>
+ </td>
+
+</tr>
+<tr>
+ <td><center> 6 </center></td>
+ <td><center> 9.464 </center></td>
+ <td><center> 0.088 </center></td>
+ <td><center> 1.933 </center></td>
+ <td><center> 7.255 </center></td>
+ <td><center> 0.866 </center></td>
+ <td><center> 4.766 </center></td>
+ <td><center> 2.254 </center></td>
+ <td><center> 0.596 </center></td>
+
+ <td><center><a href="#openModal6">View</a></center>
+ <div id="openModal6" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+    <center>
+    <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/idmode6.avi.gif" style="width: 600px;" >
+    <p><i>Identification Results Mode 6</i></p>
+    </center>
+	</div>
+ </div>
+ </td>
+
+</tr>
 
 </table>
 
@@ -130,33 +250,3 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
 #### [Click here][dl] to download the data files.
 
 [dl]: http://gofile.me/3sin6/7KGiNJPPb
-
-
-
-<script>
-// Get the modal
-var modal = document.getElementById('myModal');
-
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks the button, open the modal
-btn.onclick = function() {
-    modal.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-    modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
-</script>

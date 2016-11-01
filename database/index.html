@@ -44,7 +44,8 @@ permalink: /database/
   <tr>
     <td>
       <center>
-        <p>{{ post.date | date_to_long_string }}</p>
+        <a style="font-size:15px; line-height:28px" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date_to_long_string }}</a>
+        <!-- <p>{{ post.date | date_to_long_string }}</p> -->
       </center>
     </td>
     <td>
@@ -54,17 +55,17 @@ permalink: /database/
     </td>
     <td>
       <center>
-        <p>{{ post.setupno }}</p>
+        <a style="font-size:15px; line-height:28px" href="{{ post.url | prepend: site.baseurl }}">{{ post.setupno }}</a>
       </center>
     </td>
     <td>
       <center>
-        <p>{{ post.sensorno }}</p>
+        <a style="font-size:15px; line-height:28px" href="{{ post.url | prepend: site.baseurl }}">{{ post.sensorno }}</a>
       </center>
     </td>
     <td>
       <center>
-        <p>{{ post.datadl }}</p>
+        <a style="font-size:15px; line-height:28px" href="{{ post.url | prepend: site.baseurl }}">{{ post.datadl}}</a>
       </center>
     </td>
   </tr>
