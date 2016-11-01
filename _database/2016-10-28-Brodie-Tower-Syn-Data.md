@@ -250,7 +250,7 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
 
 <center>
  <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/synidresults.gif" style="width: 800px;" >
- <p><i> Figure 6. Identification Results </i></p>
+ <p><i> Figure 7. Identification Results </i></p>
 </center>
 
 
