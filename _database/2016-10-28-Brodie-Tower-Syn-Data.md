@@ -91,13 +91,13 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
   </tr>
   <tr class="header">
     <th style="width:10%;" ><center>MPV</center></th>
-    <th style="width:10%;" ><center>c.o.v.</center></th>
+    <th style="width:10%;" ><center>c.o.v.(%)</center></th>
     <th style="width:10%;" ><center>MPV</center></th>
-    <th style="width:10%;" ><center>c.o.v.</center></th>
+    <th style="width:10%;" ><center>c.o.v.(%)</center></th>
     <th style="width:10%;" ><center>MPV</center></th>
-    <th style="width:10%;" ><center>c.o.v.</center></th>
+    <th style="width:10%;" ><center>c.o.v.(%)</center></th>
     <th style="width:10%;" ><center>MPV</center></th>
-    <th style="width:10%;" ><center>c.o.v.</center></th>
+    <th style="width:10%;" ><center>c.o.v.(%)</center></th>
   </tr>
 
 <tr>
@@ -246,7 +246,7 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
 </tr>
 
 </table>
-
+#### * c.o.v. (coefficient of variation): the ratio of the square root of variance to the MPV value
 
 <center>
  <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/synidresults.gif" style="width: 800px;" >
