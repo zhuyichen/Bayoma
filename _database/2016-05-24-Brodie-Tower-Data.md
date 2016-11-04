@@ -13,13 +13,15 @@ datadl: Available
 
 
 <table id="myTable2">
-  <tr class="header">
-    <th style="width:50%;">Date</th>
-    <th style="width:50%;" style="border:1px solid #ddd">Address</th>    
+  <tr>
+    <td class="header" style="width:15%"><b>Date:</b></td>
+    <td style="width:35%">{{ page.date | date: "%-d %B %Y" }}</td>
+    <td class="header" style="width:50%"><b>Address</b></td>    
   </tr>
   <tr>
-    <td>{{ page.date | date: "%B %-d, %Y" }}</td>
-    <td rowspan="9" style="border:1px solid #ddd">
+    <td class="header"><b>Structure:</b></td>
+    <td>Brodie Tower, University of Liverpool</td>
+    <td rowspan="7">
     <center>
     <p style="font-size: 16px; padding: 12px">University of Liverpool, Brownlow Street, Liverpool, L69 3GQ</p>
     <iframe
@@ -28,79 +30,80 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
     </center>
     </td>    
   </tr>
-  <tr class="header">
-    <th>Structure</th>
+  <tr>
+    <td class="header"><b>Type:</b></td>
+    <td>Reinforced concrete building, 7-storeys</td>  
   </tr>
   <tr>
-    <td>Brodie Tower, University of Liverpool</td>
-  </tr>
-  <tr class="header">
-    <th>Type</th>
+    <td class="header"><b>Gross Dimensions:</b></td>
+    <td>25m Wide x 28m Long x 25m High</td>
   </tr>
   <tr>
-    <td>Reinforced concrete building, 7-storeys</td>
-  </tr>
-  <tr class="header">
-    <th>Gross Dimensions</th>
-  </tr>
-  <tr>
-    <td>25m Width x 28m Depth x 25m Height</td>
-  </tr>
-  <tr class="header">
-    <th>Equipment</th>
-  </tr>
-  <tr>
+    <td class="header"><b>Equipment:</b></td>
     <td>4 triaxial servo-accelerometers with 24 bit digitizer and individual high precision clock</td>
   </tr>
-  <tr class="header">
-    <th>No. of Participants</th>
-    <th style="border:1px solid #ddd">No. of Setups</th>
+  <tr>
+    <td class="header"><b>No. of Participants:</b></td>
+    <td>2</td>
   </tr>
   <tr>
-    <td>2 persons</td>
-    <td style="border:1px solid #ddd">Seven setups, each 15 min at 50 Hz</td>
-  </tr>
-  <tr class="header">
-     <th colspan="2"><center>Data Download</center></th>
+    <td class="header"><b>No. of Setups:</b></td>
+    <td>7 setups, each 15 min at 50 Hz</td>
   </tr>
   <tr>
-    <td colspan="2">
-    <center>
-    <a href="http://gofile.me/3sin6/wqWI4T0cI"> Click Here </a>
-    </center>
-    </td>
-  </tr>
+  <td colspan="2">
+  <center>
+    <a href="http://gofile.me/3sin6/wqWI4T0cI"><b>Data Download</b></a>
+  </center>
+  </td>  
+  </tr>  
 </table>
 
 ## Photo Gallery
 ---
-
 <table id="myTable2">
  <tr>
-  <td>
-   <center>
-   <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/planview.png" style="width: 500px;" >
-   </center>
+  <td style="width:50%">
+    <center>
+     <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/synsetup.gif" style="width: 100%;" >
+    </center>
   </td>
-  <td>
-   <center>
-    <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/brodie-tower.jpg" style="width: 500px;" >
-   </center>
-  </td>  
- </tr>
- <tr>
-  <td>
-   <center>
-    <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/sensor.jpg" style="width: 500px;" >
-   </center>
+  <td style="width:50%">
+    <center>
+
+<div class="slideshow-container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 3</div>
+    <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/planview.png" style="width:80%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 3</div>
+    <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/brodie-tower.jpg" style="width:80%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 3</div>
+    <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/sensor.jpg" style="width:80%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+    </center>
   </td>
-  <td>
-   <center>
-    <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/synsetup.gif" style="width: 500px;" >
-   </center>
-  </td>  
  </tr>
 </table>
+
 
 
 ## Data Spectra
@@ -139,11 +142,11 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
   </tr>
   <tr class="header">
     <th style="width:10%;" ><center>MPV</center></th>
-    <th style="width:10%;" ><center>sample c.o.v.(%)</center></th>
+    <th style="width:10%;" ><center>Sample c.o.v.(%)</center></th>
     <th style="width:10%;" ><center>MPV</center></th>
-    <th style="width:10%;" ><center>sample c.o.v.(%)</center></th>
+    <th style="width:10%;" ><center>Sample c.o.v.(%)</center></th>
     <th style="width:10%;" ><center>MPV</center></th>
-    <th style="width:10%;" ><center>sample c.o.v.(%)</center></th>
+    <th style="width:10%;" ><center>Sample c.o.v.(%)</center></th>
   </tr>
 
   <tr>
@@ -154,13 +157,13 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
    <td><center> 0.96 </center></td>
    <td><center> 5.59 </center></td>
    <td><center> 0.57 </center></td>
-   <td><center> 13.95 </center></td>
+   <td><center> 3.89 </center></td>
    <td><center><a href="#openModal1-1">View</a></center>
     <div id="openModal1-1" class="modalDialog">
   	<div>
   		<a href="#close" title="Close" class="close">X</a>
       <center>
-      <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/idmode1.avi.gif" style="width: 600px;" >
+      <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/trackmode1.png" style="width: 800px;" >
       <p><i>Track Information Mode 1</i></p>
       </center>
   	</div>
@@ -171,7 +174,7 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
   	<div>
   		<a href="#close" title="Close" class="close">X</a>
       <center>
-      <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/idmode1.avi.gif" style="width: 600px;" >
+      <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/idmode1.avi.gif" style="width: 800px;" >
       <p><i>Identification Results Mode 1</i></p>
       </center>
   	</div>
@@ -186,13 +189,13 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
    <td><center> 0.91 </center></td>
    <td><center> 6.11 </center></td>
    <td><center> 0.76 </center></td>
-   <td><center> 14.95 </center></td>
+   <td><center> 4.47 </center></td>
    <td><center><a href="#openModal2-1">View</a></center>
     <div id="openModal2-1" class="modalDialog">
   	<div>
   		<a href="#close" title="Close" class="close">X</a>
       <center>
-      <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/idmode2.avi.gif" style="width: 600px;" >
+      <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/trackmode2.png" style="width: 800px;" >
       <p><i>Track Information Mode 2</i></p>
       </center>
   	</div>
@@ -203,7 +206,7 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
   	<div>
   		<a href="#close" title="Close" class="close">X</a>
       <center>
-      <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/idmode2.avi.gif" style="width: 600px;" >
+      <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/idmode2.avi.gif" style="width: 800px;" >
       <p><i>Identification Results Mode 2</i></p>
       </center>
   	</div>
@@ -218,13 +221,13 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
    <td><center> 0.82 </center></td>
    <td><center> 3.75 </center></td>
    <td><center> 0.49 </center></td>
-   <td><center> 10.43 </center></td>
+   <td><center> 2.18 </center></td>
    <td><center><a href="#openModal3-1">View</a></center>
     <div id="openModal3-1" class="modalDialog">
   	<div>
   		<a href="#close" title="Close" class="close">X</a>
       <center>
-      <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/idmode3.avi.gif" style="width: 600px;" >
+      <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/trackmode3.png" style="width: 800px;" >
       <p><i>Track Information Mode 3</i></p>
       </center>
   	</div>
@@ -235,7 +238,7 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
   	<div>
   		<a href="#close" title="Close" class="close">X</a>
       <center>
-      <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/idmode3.avi.gif" style="width: 600px;" >
+      <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/idmode3.avi.gif" style="width: 800px;" >
       <p><i>Identification Results Mode 3</i></p>
       </center>
   	</div>
@@ -244,19 +247,19 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
   </tr>
   <tr>
    <td><center> 4 </center></td>
-   <td><center> 39.64 </center></td>
+   <td><center> 40 </center></td>
    <td><center> 7.40 </center></td>
    <td><center> 0.06 </center></td>
    <td><center> 2.54 </center></td>
    <td><center> 4.74 </center></td>
    <td><center> 0.52 </center></td>
-   <td><center> 13.89 </center></td>
+   <td><center> 3.86 </center></td>
    <td><center><a href="#openModal4-1">View</a></center>
     <div id="openModal4-1" class="modalDialog">
   	<div>
   		<a href="#close" title="Close" class="close">X</a>
       <center>
-      <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/idmode4.avi.gif" style="width: 600px;" >
+      <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/trackmode4.png" style="width: 800px;" >
       <p><i>Track Information Mode 4</i></p>
       </center>
   	</div>
@@ -267,7 +270,7 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
   	<div>
   		<a href="#close" title="Close" class="close">X</a>
       <center>
-      <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/idmode4.avi.gif" style="width: 600px;" >
+      <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/idmode4.avi.gif" style="width: 800px;" >
       <p><i>Identification Results Mode 4</i></p>
       </center>
   	</div>
@@ -276,19 +279,19 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
   </tr>
   <tr>
    <td><center> 5 </center></td>
-   <td><center> 94.12 </center></td>
+   <td><center> 95 </center></td>
    <td><center> 8.01 </center></td>
    <td><center> 0.05 </center></td>
    <td><center> 2.50 </center></td>
    <td><center> 3.17 </center></td>
    <td><center> 0.60 </center></td>
-   <td><center> 11.66 </center></td>
+   <td><center> 2.72 </center></td>
    <td><center><a href="#openModal5-1">View</a></center>
     <div id="openModal5-1" class="modalDialog">
   	<div>
   		<a href="#close" title="Close" class="close">X</a>
       <center>
-      <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/idmode5.avi.gif" style="width: 600px;" >
+      <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/trackmode5.png" style="width: 800px;" >
       <p><i>Track Information Mode 5</i></p>
       </center>
   	</div>
@@ -299,7 +302,7 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
   	<div>
   		<a href="#close" title="Close" class="close">X</a>
       <center>
-      <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/idmode5.avi.gif" style="width: 600px;" >
+      <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/idmode5.avi.gif" style="width: 800px;" >
       <p><i>Identification Results Mode 5</i></p>
       </center>
   	</div>
@@ -308,19 +311,19 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
   </tr>
   <tr>
    <td><center> 6 </center></td>
-   <td><center> 120.5 </center></td>
+   <td><center> 121 </center></td>
    <td><center> 9.46 </center></td>
    <td><center> 0.03 </center></td>
    <td><center> 1.82 </center></td>
    <td><center> 2.76 </center></td>
    <td><center> 0.72 </center></td>
-   <td><center> 9.75 </center></td>
+   <td><center> 1.90 </center></td>
    <td><center><a href="#openModal6-1">View</a></center>
     <div id="openModal6-1" class="modalDialog">
   	<div>
   		<a href="#close" title="Close" class="close">X</a>
       <center>
-      <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/idmode6.avi.gif" style="width: 600px;" >
+      <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/trackmode6.png" style="width: 800px;" >
       <p><i>Track Information Mode 6</i></p>
       </center>
   	</div>
@@ -331,7 +334,7 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
   	<div>
   		<a href="#close" title="Close" class="close">X</a>
       <center>
-      <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/idmode6.avi.gif" style="width: 600px;" >
+      <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/idmode6.avi.gif" style="width: 800px;" >
       <p><i>Identification Results Mode 6</i></p>
       </center>
   	</div>
@@ -352,3 +355,34 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
 </td>
 </tr>
 </table>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+
+
+</script>
