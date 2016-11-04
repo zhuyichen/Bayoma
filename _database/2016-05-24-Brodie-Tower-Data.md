@@ -14,12 +14,12 @@ datadl: Available
 
 <table id="myTable2">
   <tr>
-    <td class="header" style="width:15%"><b>Date:</b></td>
+    <td class="header" style="width:15%"><b>Date</b></td>
     <td style="width:35%">{{ page.date | date: "%-d %B %Y" }}</td>
     <td class="header" style="width:50%"><b>Address</b></td>    
   </tr>
   <tr>
-    <td class="header"><b>Structure:</b></td>
+    <td class="header"><b>Structure</b></td>
     <td>Brodie Tower, University of Liverpool</td>
     <td rowspan="7">
     <center>
@@ -31,23 +31,23 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
     </td>    
   </tr>
   <tr>
-    <td class="header"><b>Type:</b></td>
+    <td class="header"><b>Type</b></td>
     <td>Reinforced concrete building, 7-storeys</td>  
   </tr>
   <tr>
-    <td class="header"><b>Gross Dimensions:</b></td>
+    <td class="header"><b>Gross Dimensions</b></td>
     <td>25m Wide x 28m Long x 25m High</td>
   </tr>
   <tr>
-    <td class="header"><b>Equipment:</b></td>
+    <td class="header"><b>Equipment</b></td>
     <td>4 triaxial servo-accelerometers with 24 bit digitizer and individual high precision clock</td>
   </tr>
   <tr>
-    <td class="header"><b>No. of Participants:</b></td>
+    <td class="header"><b>No. of Participants</b></td>
     <td>2</td>
   </tr>
   <tr>
-    <td class="header"><b>No. of Setups:</b></td>
+    <td class="header"><b>No. of Setups</b></td>
     <td>7 setups, each 15 min at 50 Hz</td>
   </tr>
   <tr>
