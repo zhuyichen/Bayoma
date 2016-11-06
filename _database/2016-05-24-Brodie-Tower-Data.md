@@ -1,6 +1,6 @@
 ---
 layout: post-database
-title: 160524-Brodie Tower Data
+title: 160524-Brodie Tower
 date: 2016-05-24 16:05:00
 author: Yichen Zhu
 setupno: 7
@@ -21,7 +21,7 @@ datadl: Available
   <tr>
     <td class="header"><b>Structure</b></td>
     <td>Brodie Tower, University of Liverpool</td>
-    <td rowspan="7">
+    <td rowspan="8">
     <center>
     <p style="font-size: 16px; padding: 12px">University of Liverpool, Brownlow Street, Liverpool, L69 3GQ</p>
     <iframe
@@ -32,7 +32,7 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
   </tr>
   <tr>
     <td class="header"><b>Type</b></td>
-    <td>Reinforced concrete building, 7-storeys</td>  
+    <td>Reinforced concrete building, 7 storeys</td>  
   </tr>
   <tr>
     <td class="header"><b>Gross Dimensions</b></td>
@@ -51,15 +51,18 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
     <td>7 setups, each 15 min at 50 Hz</td>
   </tr>
   <tr>
-  <td colspan="2">
-  <center>
-    <a href="http://gofile.me/3sin6/wqWI4T0cI"><b>Data Download</b></a>
-  </center>
+    <td class="header"><b>Contributer</b></td>
+    <td>Yi-Chen Zhu, Yan-Long Xie, Siu-Kui Au (University of Liverpool)</td>
+  </tr>
+  <tr>
+  <td class="header"><b>Data</b></td>
+  <td>
+    <a href="http://gofile.me/3sin6/wqWI4T0cI"><b>Download</b></a>
   </td>  
   </tr>  
 </table>
 
-## Photo Gallery
+## Setups and Photos
 ---
 <table id="myTable2">
  <tr>
@@ -113,13 +116,13 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
   <td>
    <center>
     <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/psd.png" style="width: 500px;" >
-    <p><i>Root Power Spectrum of 6/F </i></p>
+    <p><i>Root Power Spectrum of Setup 2 </i></p>
     </center>
   </td>
   <td>
    <center>
     <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/svd.png" style="width: 500px;" >
-    <p><i>Root Singular Value Spectrum of 6/F </i></p>
+    <p><i>Root Singular Value Spectrum of Setup 2 </i></p>
     </center>
   </td>
  </tr>
@@ -141,12 +144,12 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
     <th style="width:10%;" rowspan="2"><center>Mode Shape</center></th>
   </tr>
   <tr class="header">
-    <th style="width:10%;" ><center>MPV</center></th>
-    <th style="width:10%;" ><center>Sample c.o.v.(%)</center></th>
-    <th style="width:10%;" ><center>MPV</center></th>
-    <th style="width:10%;" ><center>Sample c.o.v.(%)</center></th>
-    <th style="width:10%;" ><center>MPV</center></th>
-    <th style="width:10%;" ><center>Sample c.o.v.(%)</center></th>
+    <th style="width:10%;" ><center>Weighted MPV</center></th>
+    <th style="width:10%;" ><center>Weighted c.o.v.(%)</center></th>
+    <th style="width:10%;" ><center>Weighted MPV</center></th>
+    <th style="width:10%;" ><center>Weighted c.o.v.(%)</center></th>
+    <th style="width:10%;" ><center>Weighted MPV</center></th>
+    <th style="width:10%;" ><center>Weighted c.o.v.(%)</center></th>
   </tr>
 
   <tr>
