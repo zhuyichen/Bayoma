@@ -144,23 +144,23 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
     <th style="width:10%;" rowspan="2"><center>Mode Shape</center></th>
   </tr>
   <tr class="header">
-    <th style="width:10%;" ><center>Weighted MPV</center></th>
-    <th style="width:10%;" ><center>Weighted c.o.v.(%)</center></th>
-    <th style="width:10%;" ><center>Weighted MPV</center></th>
-    <th style="width:10%;" ><center>Weighted c.o.v.(%)</center></th>
-    <th style="width:10%;" ><center>Weighted MPV</center></th>
-    <th style="width:10%;" ><center>Weighted c.o.v.(%)</center></th>
+    <th style="width:10%;" ><center>MPV</center></th>
+    <th style="width:10%;" ><center>c.o.v.(%)</center></th>
+    <th style="width:10%;" ><center>MPV</center></th>
+    <th style="width:10%;" ><center>c.o.v.(%)</center></th>
+    <th style="width:10%;" ><center>MPV</center></th>
+    <th style="width:10%;" ><center>c.o.v.(%)</center></th>
   </tr>
 
   <tr>
    <td><center> 1 </center></td>
    <td><center> 938 </center></td>
    <td><center> 2.42 </center></td>
-   <td><center> 0.04 </center></td>
-   <td><center> 0.96 </center></td>
-   <td><center> 5.59 </center></td>
-   <td><center> 0.57 </center></td>
-   <td><center> 3.89 </center></td>
+   <td><center> 0.21 </center></td>
+   <td><center> 0.99 </center></td>
+   <td><center> 19.45 </center></td>
+   <td><center> 1.07 </center></td>
+   <td><center> 44.61 </center></td>
    <td><center><a href="#openModal1-1">View</a></center>
     <div id="openModal1-1" class="modalDialog">
   	<div>
@@ -187,12 +187,12 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
   <tr>
    <td><center> 2 </center></td>
    <td><center> 1086 </center></td>
-   <td><center> 2.70 </center></td>
-   <td><center> 0.04 </center></td>
-   <td><center> 0.91 </center></td>
-   <td><center> 6.11 </center></td>
-   <td><center> 0.76 </center></td>
-   <td><center> 4.47 </center></td>
+   <td><center> 2.71 </center></td>
+   <td><center> 0.26 </center></td>
+   <td><center> 0.96 </center></td>
+   <td><center> 22.38 </center></td>
+   <td><center> 1.09 </center></td>
+   <td><center> 34.93 </center></td>
    <td><center><a href="#openModal2-1">View</a></center>
     <div id="openModal2-1" class="modalDialog">
   	<div>
@@ -220,11 +220,11 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
    <td><center> 3 </center></td>
    <td><center> 3516 </center></td>
    <td><center> 3.75 </center></td>
-   <td><center> 0.02 </center></td>
+   <td><center> 0.25 </center></td>
    <td><center> 0.82 </center></td>
-   <td><center> 3.75 </center></td>
-   <td><center> 0.49 </center></td>
-   <td><center> 2.18 </center></td>
+   <td><center> 11.05 </center></td>
+   <td><center> 0.99 </center></td>
+   <td><center> 55.77 </center></td>
    <td><center><a href="#openModal3-1">View</a></center>
     <div id="openModal3-1" class="modalDialog">
   	<div>
@@ -252,11 +252,11 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
    <td><center> 4 </center></td>
    <td><center> 40 </center></td>
    <td><center> 7.40 </center></td>
-   <td><center> 0.06 </center></td>
-   <td><center> 2.54 </center></td>
-   <td><center> 4.74 </center></td>
-   <td><center> 0.52 </center></td>
-   <td><center> 3.86 </center></td>
+   <td><center> 0.28 </center></td>
+   <td><center> 2.64 </center></td>
+   <td><center> 18.09 </center></td>
+   <td><center> 0.56 </center></td>
+   <td><center> 17.77 </center></td>
    <td><center><a href="#openModal4-1">View</a></center>
     <div id="openModal4-1" class="modalDialog">
   	<div>
@@ -282,13 +282,13 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
   </tr>
   <tr>
    <td><center> 5 </center></td>
-   <td><center> 95 </center></td>
-   <td><center> 8.01 </center></td>
-   <td><center> 0.05 </center></td>
-   <td><center> 2.50 </center></td>
-   <td><center> 3.17 </center></td>
-   <td><center> 0.60 </center></td>
-   <td><center> 2.72 </center></td>
+   <td><center> 94 </center></td>
+   <td><center> 8.00 </center></td>
+   <td><center> 0.38 </center></td>
+   <td><center> 2.55 </center></td>
+   <td><center> 12.09 </center></td>
+   <td><center> 0.86 </center></td>
+   <td><center> 29.72 </center></td>
    <td><center><a href="#openModal5-1">View</a></center>
     <div id="openModal5-1" class="modalDialog">
   	<div>
@@ -316,11 +316,11 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
    <td><center> 6 </center></td>
    <td><center> 121 </center></td>
    <td><center> 9.46 </center></td>
-   <td><center> 0.03 </center></td>
-   <td><center> 1.82 </center></td>
-   <td><center> 2.76 </center></td>
-   <td><center> 0.72 </center></td>
-   <td><center> 1.90 </center></td>
+   <td><center> 0.25 </center></td>
+   <td><center> 1.93 </center></td>
+   <td><center> 15.97 </center></td>
+   <td><center> 0.87 </center></td>
+   <td><center> 23.46 </center></td>
    <td><center><a href="#openModal6-1">View</a></center>
     <div id="openModal6-1" class="modalDialog">
   	<div>
@@ -344,8 +344,6 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
    </div>
    </td>
   </tr>
-
-
 
 </table>
 
