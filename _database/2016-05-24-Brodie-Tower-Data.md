@@ -1,10 +1,10 @@
 ---
 layout: post-database
-title: 160524-Brodie Tower
+title: 160524 Brodie Tower
 date: 2016-05-24 16:05:00
 author: Yichen Zhu
 setupno: 7
-sensorno: 5
+locationno: 5
 datadl: Available
 ---
 
@@ -24,8 +24,7 @@ datadl: Available
     <td rowspan="8">
     <center>
     <p style="font-size: 16px; padding: 12px">University of Liverpool, Brownlow Street, Liverpool, L69 3GQ</p>
-    <iframe
-src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-2.967125279272631!3d53.4061899038967!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x142bb768f021cfd9!2sBrodie+Tower!5e0!3m2!1sen!2suk!4v1477754248132" width="500" height="400" frameborder="0" style="border:0" allowfullscreen>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-2.967125279272631!3d53.4061899038967!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x142bb768f021cfd9!2sBrodie+Tower!5e0!3m2!1sen!2suk!4v1477754248132" width="500" height="400" frameborder="0" style="border:0" allowfullscreen>
     </iframe>
     </center>
     </td>    
@@ -57,12 +56,12 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
   <tr>
   <td class="header"><b>Data</b></td>
   <td>
-    <a href="http://gofile.me/3sin6/wqWI4T0cI"><b>Download</b></a>
+    <a href="http://gofile.me/3sin6/wqWI4T0cI"><b>Download</b></a> (15.2Mb)
   </td>  
   </tr>  
 </table>
 
-## Setups and Photos
+## Setup and Gallery
 ---
 <table id="myTable2">
  <tr>
@@ -74,33 +73,33 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
   <td style="width:50%">
     <center>
 
-<div class="slideshow-container">
-  <div class="mySlides">
-    <div class="numbertext">1 / 3</div>
-    <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/planview.png" style="width:80%">
-    <div class="text"></div>
-  </div>
+       <div class="slideshow-container">
+        <div class="mySlides">
+          <div class="numbertext">1 / 3</div>
+          <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/planview.png" style="width:80%">
+          <div class="text"></div>
+        </div>
 
-  <div class="mySlides">
-    <div class="numbertext">2 / 3</div>
-    <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/brodie-tower.jpg" style="width:80%">
-  </div>
+        <div class="mySlides">
+          <div class="numbertext">2 / 3</div>
+          <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/brodie-tower.jpg" style="width:80%">
+        </div>
 
-  <div class="mySlides">
-    <div class="numbertext">3 / 3</div>
-    <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/sensor.jpg" style="width:80%">
-  </div>
+        <div class="mySlides">
+          <div class="numbertext">3 / 3</div>
+          <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/sensor.jpg" style="width:80%">
+        </div>
 
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+       </div>
+       <br>
 
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-</div>
+      <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
 
     </center>
   </td>
@@ -116,13 +115,13 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
   <td>
    <center>
     <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/psd.png" style="width: 500px;" >
-    <p><i>Root Power Spectrum of Setup 2 </i></p>
+    <p>Root Power Spectrum of Setup 2</p>
     </center>
   </td>
   <td>
    <center>
     <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/svd.png" style="width: 500px;" >
-    <p><i>Root Singular Value Spectrum of Setup 2 </i></p>
+    <p>Root Singular Value Spectrum of Setup 2</p>
     </center>
   </td>
  </tr>
@@ -136,7 +135,7 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
 <table id="myTable">
   <tr class="header">
     <th style="width:10%;" rowspan="2"><center>Mode</center></th>
-    <th style="width:10%;" rowspan="2"><center>Modal s/n Ratio</center></th>
+    <th style="width:10%;" colspan="2"><center>Modal s/n Ratio</center></th>
     <th style="width:20%;" colspan="2"><center>Natural Frequency (Hz)</center></th>
     <th style="width:20%;" colspan="2"><center>Damping Ratio (%)</center></th>
     <th style="width:20%;" colspan="2"><center>Modal Force PSD (ug/sqrt(Hz))</center></th>
@@ -144,6 +143,8 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
     <th style="width:10%;" rowspan="2"><center>Mode Shape</center></th>
   </tr>
   <tr class="header">
+    <th style="width:10%;" ><center>Min</center></th>
+    <th style="width:10%;" ><center>Max</center></th>
     <th style="width:10%;" ><center>MPV</center></th>
     <th style="width:10%;" ><center>c.o.v.(%)</center></th>
     <th style="width:10%;" ><center>MPV</center></th>
@@ -154,13 +155,14 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
 
   <tr>
    <td><center> 1 </center></td>
-   <td><center> 938 </center></td>
+   <td><center> 782 </center></td>
+   <td><center> 1148 </center></td>
    <td><center> 2.42 </center></td>
    <td><center> 0.21 </center></td>
    <td><center> 0.99 </center></td>
-   <td><center> 19.45 </center></td>
+   <td><center> 19 </center></td>
    <td><center> 1.07 </center></td>
-   <td><center> 44.61 </center></td>
+   <td><center> 45 </center></td>
    <td><center><a href="#openModal1-1">View</a></center>
     <div id="openModal1-1" class="modalDialog">
   	<div>
@@ -172,7 +174,7 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
   	</div>
    </div>
    </td>
-  <td><center><a href="#openModal1-2">View</a></center>
+   <td><center><a href="#openModal1-2">View</a></center>
     <div id="openModal1-2" class="modalDialog">
   	<div>
   		<a href="#close" title="Close" class="close">X</a>
@@ -181,18 +183,19 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
       <p><i>Identification Results Mode 1</i></p>
       </center>
   	</div>
-   </div>
+    </div>
    </td>
   </tr>
   <tr>
    <td><center> 2 </center></td>
-   <td><center> 1086 </center></td>
+   <td><center> 678 </center></td>
+   <td><center> 1656 </center></td>
    <td><center> 2.71 </center></td>
    <td><center> 0.26 </center></td>
    <td><center> 0.96 </center></td>
-   <td><center> 22.38 </center></td>
+   <td><center> 22 </center></td>
    <td><center> 1.09 </center></td>
-   <td><center> 34.93 </center></td>
+   <td><center> 35 </center></td>
    <td><center><a href="#openModal2-1">View</a></center>
     <div id="openModal2-1" class="modalDialog">
   	<div>
@@ -204,7 +207,7 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
   	</div>
    </div>
    </td>
-  <td><center><a href="#openModal2-2">View</a></center>
+   <td><center><a href="#openModal2-2">View</a></center>
     <div id="openModal2-2" class="modalDialog">
   	<div>
   		<a href="#close" title="Close" class="close">X</a>
@@ -213,18 +216,19 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
       <p><i>Identification Results Mode 2</i></p>
       </center>
   	</div>
-   </div>
+    </div>
    </td>
   </tr>
   <tr>
    <td><center> 3 </center></td>
-   <td><center> 3516 </center></td>
+   <td><center> 1744 </center></td>
+   <td><center> 5281 </center></td>
    <td><center> 3.75 </center></td>
    <td><center> 0.25 </center></td>
    <td><center> 0.82 </center></td>
-   <td><center> 11.05 </center></td>
+   <td><center> 11 </center></td>
    <td><center> 0.99 </center></td>
-   <td><center> 55.77 </center></td>
+   <td><center> 56 </center></td>
    <td><center><a href="#openModal3-1">View</a></center>
     <div id="openModal3-1" class="modalDialog">
   	<div>
@@ -236,7 +240,7 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
   	</div>
    </div>
    </td>
-  <td><center><a href="#openModal3-2">View</a></center>
+   <td><center><a href="#openModal3-2">View</a></center>
     <div id="openModal3-2" class="modalDialog">
   	<div>
   		<a href="#close" title="Close" class="close">X</a>
@@ -245,18 +249,19 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
       <p><i>Identification Results Mode 3</i></p>
       </center>
   	</div>
-   </div>
+    </div>
    </td>
   </tr>
   <tr>
    <td><center> 4 </center></td>
-   <td><center> 40 </center></td>
+   <td><center> 26 </center></td>
+   <td><center> 62 </center></td>
    <td><center> 7.40 </center></td>
    <td><center> 0.28 </center></td>
    <td><center> 2.64 </center></td>
-   <td><center> 18.09 </center></td>
+   <td><center> 18 </center></td>
    <td><center> 0.56 </center></td>
-   <td><center> 17.77 </center></td>
+   <td><center> 18 </center></td>
    <td><center><a href="#openModal4-1">View</a></center>
     <div id="openModal4-1" class="modalDialog">
   	<div>
@@ -268,7 +273,7 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
   	</div>
    </div>
    </td>
-  <td><center><a href="#openModal4-2">View</a></center>
+   <td><center><a href="#openModal4-2">View</a></center>
     <div id="openModal4-2" class="modalDialog">
   	<div>
   		<a href="#close" title="Close" class="close">X</a>
@@ -277,18 +282,19 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
       <p><i>Identification Results Mode 4</i></p>
       </center>
   	</div>
-   </div>
+    </div>
    </td>
   </tr>
   <tr>
    <td><center> 5 </center></td>
-   <td><center> 94 </center></td>
+   <td><center> 58 </center></td>
+   <td><center> 157 </center></td>
    <td><center> 8.00 </center></td>
    <td><center> 0.38 </center></td>
    <td><center> 2.55 </center></td>
-   <td><center> 12.09 </center></td>
+   <td><center> 12 </center></td>
    <td><center> 0.86 </center></td>
-   <td><center> 29.72 </center></td>
+   <td><center> 30 </center></td>
    <td><center><a href="#openModal5-1">View</a></center>
     <div id="openModal5-1" class="modalDialog">
   	<div>
@@ -300,7 +306,7 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
   	</div>
    </div>
    </td>
-  <td><center><a href="#openModal5-2">View</a></center>
+   <td><center><a href="#openModal5-2">View</a></center>
     <div id="openModal5-2" class="modalDialog">
   	<div>
   		<a href="#close" title="Close" class="close">X</a>
@@ -309,18 +315,19 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
       <p><i>Identification Results Mode 5</i></p>
       </center>
   	</div>
-   </div>
+    </div>
    </td>
   </tr>
   <tr>
    <td><center> 6 </center></td>
-   <td><center> 121 </center></td>
+   <td><center> 49 </center></td>
+   <td><center> 288 </center></td>
    <td><center> 9.46 </center></td>
    <td><center> 0.25 </center></td>
    <td><center> 1.93 </center></td>
-   <td><center> 15.97 </center></td>
+   <td><center> 16 </center></td>
    <td><center> 0.87 </center></td>
-   <td><center> 23.46 </center></td>
+   <td><center> 23 </center></td>
    <td><center><a href="#openModal6-1">View</a></center>
     <div id="openModal6-1" class="modalDialog">
   	<div>
@@ -332,7 +339,7 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
   	</div>
    </div>
    </td>
-  <td><center><a href="#openModal6-2">View</a></center>
+   <td><center><a href="#openModal6-2">View</a></center>
     <div id="openModal6-2" class="modalDialog">
   	<div>
   		<a href="#close" title="Close" class="close">X</a>
@@ -341,35 +348,39 @@ src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-
       <p><i>Identification Results Mode 6</i></p>
       </center>
   	</div>
-   </div>
+    </div>
    </td>
-  </tr>
-
+  </tr>  
 </table>
 
 <table id="myTable2">
-<tr>
-<td>
-<center>
- <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/synidresults.gif" style="width: 800px;" >
-</center>
-</td>
-</tr>
+ <tr>
+  <td>
+   <center>
+    <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/synidresults.gif" style="width: 800px;" >
+   </center>
+  </td>
+ </tr>
 </table>
 
+## Uncertainty Law
+----
+
+
+
 <script>
-var slideIndex = 1;
-showSlides(slideIndex);
+ var slideIndex = 1;
+ showSlides(slideIndex);
 
-function plusSlides(n) {
+ function plusSlides(n) {
   showSlides(slideIndex += n);
-}
+ }
 
-function currentSlide(n) {
+ function currentSlide(n) {
   showSlides(slideIndex = n);
-}
+ }
 
-function showSlides(n) {
+ function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
@@ -383,7 +394,5 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
-}
-
-
+ }
 </script>
