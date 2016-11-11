@@ -1022,7 +1022,7 @@ footer .footer-manu ul li a:hover {
 }
 
 /* The dots/bullets/indicators */
-.dot {
+.dot , .dot2, .dot3{
   cursor:pointer;
   height: 13px;
   width: 13px;
@@ -1033,7 +1033,9 @@ footer .footer-manu ul li a:hover {
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+
+
+.active, .dot:hover, .dot2:hover, .dot3:hover {
   background-color: #717171;
 }
 

@@ -16,7 +16,7 @@ datadl: Available
   <tr>
     <td class="header" style="width:15%"><b>Date</b></td>
     <td style="width:35%">{{ page.date | date: "%-d %B %Y" }}</td>
-    <td class="header" style="width:50%"><b>Address</b></td>    
+    <td class="header" style="width:50%"><b>Address</b></td>
   </tr>
   <tr>
     <td class="header"><b>Structure</b></td>
@@ -27,11 +27,11 @@ datadl: Available
     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-2.967125279272631!3d53.4061899038967!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x142bb768f021cfd9!2sBrodie+Tower!5e0!3m2!1sen!2suk!4v1477754248132" width="500" height="400" frameborder="0" style="border:0" allowfullscreen>
     </iframe>
     </center>
-    </td>    
+    </td>
   </tr>
   <tr>
     <td class="header"><b>Type</b></td>
-    <td>Reinforced concrete building, 7 storeys</td>  
+    <td>Reinforced concrete building, 7 storeys</td>
   </tr>
   <tr>
     <td class="header"><b>Gross Dimensions</b></td>
@@ -47,7 +47,7 @@ datadl: Available
   </tr>
   <tr>
     <td class="header"><b>No. of Setups</b></td>
-    <td>7 setups, each 15 min at 50 Hz</td>
+    <td>7 setups, each 20 min at 50 Hz</td>
   </tr>
   <tr>
     <td class="header"><b>Contributer</b></td>
@@ -57,8 +57,8 @@ datadl: Available
   <td class="header"><b>Data</b></td>
   <td>
     <a href="http://gofile.me/3sin6/wqWI4T0cI"><b>Download</b></a> (15.2Mb)
-  </td>  
-  </tr>  
+  </td>
+  </tr>
 </table>
 
 ## Setup and Gallery
@@ -100,7 +100,7 @@ datadl: Available
       <span class="dot" onclick="currentSlide(2)"></span>
       <span class="dot" onclick="currentSlide(3)"></span>
       </div>
-
+      <script src="{{ site.baseurl }}/js/slideshow.js"></script>
     </center>
   </td>
  </tr>
@@ -350,7 +350,7 @@ datadl: Available
   	</div>
     </div>
    </td>
-  </tr>  
+  </tr>
 </table>
 
 <table id="myTable2">
@@ -366,33 +366,114 @@ datadl: Available
 ## Uncertainty Law
 ----
 
+<table id="myTable2">
+ <tr>
+  <td style="width:100%">
+    <center>
+    <div class="slideshow-container">
+     <div class="mySlides2" >
+       <div class="numbertext">1 / 7</div>
+       <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/setup1.png" style="width:80%">
+       <div class="text"></div>
+     </div>
 
+     <div class="mySlides2">
+       <div class="numbertext">2 / 7</div>
+       <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/setup2.png" style="width:80%">
+     </div>
 
-<script>
- var slideIndex = 1;
- showSlides(slideIndex);
+     <div class="mySlides2">
+       <div class="numbertext">3 / 7</div>
+       <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/setup3.png" style="width:80%">
+     </div>
 
- function plusSlides(n) {
-  showSlides(slideIndex += n);
- }
+     <div class="mySlides2">
+       <div class="numbertext">4 / 7</div>
+       <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/setup4.png" style="width:80%">
+     </div>
 
- function currentSlide(n) {
-  showSlides(slideIndex = n);
- }
+     <div class="mySlides2">
+       <div class="numbertext">5 / 7</div>
+       <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/setup5.png" style="width:80%">
+     </div>
 
- function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
- }
-</script>
+     <div class="mySlides2">
+       <div class="numbertext">6 / 7</div>
+       <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/setup6.png" style="width:80%">
+     </div>
+
+     <div class="mySlides2">
+       <div class="numbertext">7 / 7</div>
+       <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/setup7.png" style="width:80%">
+     </div>
+     <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+     <a class="next" onclick="plusSlides2(1)">&#10095;</a>
+    </div>
+    <br>
+
+   <div style="text-align:center">
+   <span class="dot2" onclick="currentSlide2(1)"></span>
+   <span class="dot2" onclick="currentSlide2(2)"></span>
+   <span class="dot2" onclick="currentSlide2(3)"></span>
+   <span class="dot2" onclick="currentSlide2(4)"></span>
+   <span class="dot2" onclick="currentSlide2(5)"></span>
+   <span class="dot2" onclick="currentSlide2(6)"></span>
+   <span class="dot2" onclick="currentSlide2(7)"></span>
+   </div>
+   </center>
+   <script src="{{ site.baseurl }}/js/slideshow2.js"></script>
+  </td>
+ </tr>
+ <tr>
+  <td style="width:100%">
+    <center>
+    <div class="slideshow-container">
+     <div class="mySlides3" >
+       <div class="numbertext">1 / 6</div>
+       <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/mode1.png" style="width:80%">
+       <div class="text"></div>
+     </div>
+
+     <div class="mySlides3">
+       <div class="numbertext">2 / 6</div>
+       <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/mode2.png" style="width:80%">
+     </div>
+
+     <div class="mySlides3">
+       <div class="numbertext">3 / 6</div>
+       <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/mode3.png" style="width:80%">
+     </div>
+
+     <div class="mySlides3">
+       <div class="numbertext">4 / 6</div>
+       <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/mode4.png" style="width:80%">
+     </div>
+
+     <div class="mySlides3">
+       <div class="numbertext">5 / 6</div>
+       <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/mode5.png" style="width:80%">
+     </div>
+
+     <div class="mySlides3">
+       <div class="numbertext">6 / 6</div>
+       <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/mode6.png" style="width:80%">
+     </div>
+
+     <a class="prev" onclick="plusSlides3(-1)">&#10094;</a>
+     <a class="next" onclick="plusSlides3(1)">&#10095;</a>
+    </div>
+    <br>
+
+   <div style="text-align:center">
+   <span class="dot3" onclick="currentSlide3(1)"></span>
+   <span class="dot3" onclick="currentSlide3(2)"></span>
+   <span class="dot3" onclick="currentSlide3(3)"></span>
+   <span class="dot3" onclick="currentSlide3(4)"></span>
+   <span class="dot3" onclick="currentSlide3(5)"></span>
+   <span class="dot3" onclick="currentSlide3(6)"></span>
+   </div>
+   </center>
+   <script src="{{ site.baseurl }}/js/slideshow3.js"></script>
+  </td>
+ </tr>
+</table>
