@@ -21,7 +21,7 @@ datadl: Available
   <tr>
     <td class="header"><b>Structure</b></td>
     <td>Brodie Tower, University of Liverpool</td>
-    <td rowspan="8">
+    <td rowspan="9">
     <center>
     <p style="font-size: 16px; padding: 12px">University of Liverpool, Brownlow Street, Liverpool, L69 3GQ</p>
     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1189.2414356949819!2d-2.967125279272631!3d53.4061899038967!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x142bb768f021cfd9!2sBrodie+Tower!5e0!3m2!1sen!2suk!4v1477754248132" width="500" height="400" frameborder="0" style="border:0" allowfullscreen>
@@ -48,6 +48,10 @@ datadl: Available
   <tr>
     <td class="header"><b>No. of Setups</b></td>
     <td>7 setups, each 20 min at 50 Hz</td>
+  </tr>
+  <tr>
+    <td class="header"><b>ID Method</b></td>
+    <td>Single setup BAYOMA, mode shape assembled by global least square</td>
   </tr>
   <tr>
     <td class="header"><b>Contributer</b></td>
@@ -363,12 +367,12 @@ datadl: Available
  </tr>
 </table>
 
-## Uncertainty Law
+## Uncertainty Laws
 ----
 
 <table id="myTable2">
  <tr>
-  <td style="width:100%">
+  <td style="width:50%">
     <center>
     <div class="slideshow-container">
      <div class="mySlides2" >
@@ -423,9 +427,8 @@ datadl: Available
    </center>
    <script src="{{ site.baseurl }}/js/slideshow2.js"></script>
   </td>
- </tr>
- <tr>
-  <td style="width:100%">
+
+  <td style="width:50%">
     <center>
     <div class="slideshow-container">
      <div class="mySlides3" >
