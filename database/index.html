@@ -30,7 +30,7 @@ permalink: /database/
 -->
 
 
-{% for post in site.database %}
+
 <div class="post-area">
 <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for event names...">
 <table id="myTable">
@@ -41,6 +41,8 @@ permalink: /database/
     <th style="width:10%;"><center>No. of Locations</center></th>
     <th style="width:10%;"><center>Data Download</center></th>
   </tr>
+
+  {% for post in site.database reversed %}
   <tr>
     <td>
       <center>
@@ -69,11 +71,11 @@ permalink: /database/
       </center>
     </td>
   </tr>
-
+  {% endfor %}
 
 </table>
 </div>
-{% endfor %}
+
 
 
 <script>
