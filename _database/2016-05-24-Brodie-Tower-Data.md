@@ -4,7 +4,7 @@ title: 160524 Brodie Tower
 date: 2016-05-24 16:05:00
 author: Yichen Zhu
 setupno: 7
-locationno: 5
+locationno: 29
 datadl: Available
 ---
 
@@ -39,7 +39,7 @@ datadl: Available
   </tr>
   <tr>
     <td class="header"><b>Equipment</b></td>
-    <td>4 triaxial servo-accelerometers with 24 bit digitizer and individual high precision clock</td>
+    <td>5 triaxial servo-accelerometers with 24 bit digitizer and individual high precision clock</td>
   </tr>
   <tr>
     <td class="header"><b>No. of Participants</b></td>
@@ -60,7 +60,7 @@ datadl: Available
   <tr>
   <td class="header"><b>Data</b></td>
   <td>
-    <a href="http://gofile.me/3sin6/wqWI4T0cI"><b>Download</b></a> (15.2Mb)
+    <a href="http://gofile.me/3sin6/YJvW4c0o4"><b>Download</b></a> (24.7Mb)
   </td>
   </tr>
 </table>
@@ -159,8 +159,8 @@ datadl: Available
 
   <tr>
    <td><center> 1 </center></td>
-   <td><center> 782 </center></td>
-   <td><center> 1148 </center></td>
+   <td><center> 1189 </center></td>
+   <td><center> 1761 </center></td>
    <td><center> 2.42 </center></td>
    <td><center> 0.21 </center></td>
    <td><center> 0.99 </center></td>
@@ -192,8 +192,8 @@ datadl: Available
   </tr>
   <tr>
    <td><center> 2 </center></td>
-   <td><center> 678 </center></td>
-   <td><center> 1656 </center></td>
+   <td><center> 970 </center></td>
+   <td><center> 2411 </center></td>
    <td><center> 2.71 </center></td>
    <td><center> 0.26 </center></td>
    <td><center> 0.96 </center></td>
@@ -225,13 +225,13 @@ datadl: Available
   </tr>
   <tr>
    <td><center> 3 </center></td>
-   <td><center> 1744 </center></td>
-   <td><center> 5281 </center></td>
+   <td><center> 1413 </center></td>
+   <td><center> 6365 </center></td>
    <td><center> 3.75 </center></td>
    <td><center> 0.25 </center></td>
    <td><center> 0.82 </center></td>
    <td><center> 11 </center></td>
-   <td><center> 0.99 </center></td>
+   <td><center> 1.00 </center></td>
    <td><center> 56 </center></td>
    <td><center><a href="#openModal3-1">View</a></center>
     <div id="openModal3-1" class="modalDialog">
@@ -259,12 +259,12 @@ datadl: Available
   <tr>
    <td><center> 4 </center></td>
    <td><center> 26 </center></td>
-   <td><center> 62 </center></td>
-   <td><center> 7.40 </center></td>
+   <td><center> 40 </center></td>
+   <td><center> 7.41 </center></td>
    <td><center> 0.28 </center></td>
-   <td><center> 2.64 </center></td>
+   <td><center> 2.69 </center></td>
    <td><center> 18 </center></td>
-   <td><center> 0.56 </center></td>
+   <td><center> 0.58 </center></td>
    <td><center> 18 </center></td>
    <td><center><a href="#openModal4-1">View</a></center>
     <div id="openModal4-1" class="modalDialog">
@@ -291,14 +291,14 @@ datadl: Available
   </tr>
   <tr>
    <td><center> 5 </center></td>
-   <td><center> 58 </center></td>
-   <td><center> 157 </center></td>
+   <td><center> 19 </center></td>
+   <td><center> 92 </center></td>
    <td><center> 8.00 </center></td>
-   <td><center> 0.38 </center></td>
-   <td><center> 2.55 </center></td>
+   <td><center> 0.33 </center></td>
+   <td><center> 2.58 </center></td>
    <td><center> 12 </center></td>
-   <td><center> 0.86 </center></td>
-   <td><center> 30 </center></td>
+   <td><center> 0.89 </center></td>
+   <td><center> 28 </center></td>
    <td><center><a href="#openModal5-1">View</a></center>
     <div id="openModal5-1" class="modalDialog">
   	<div>
@@ -322,39 +322,7 @@ datadl: Available
     </div>
    </td>
   </tr>
-  <tr>
-   <td><center> 6 </center></td>
-   <td><center> 49 </center></td>
-   <td><center> 288 </center></td>
-   <td><center> 9.46 </center></td>
-   <td><center> 0.25 </center></td>
-   <td><center> 1.93 </center></td>
-   <td><center> 16 </center></td>
-   <td><center> 0.87 </center></td>
-   <td><center> 23 </center></td>
-   <td><center><a href="#openModal6-1">View</a></center>
-    <div id="openModal6-1" class="modalDialog">
-  	<div>
-  		<a href="#close" title="Close" class="close">X</a>
-      <center>
-      <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/trackmode6.png" style="width: 800px;" >
-      <p><i>Track Information Mode 6</i></p>
-      </center>
-  	</div>
-   </div>
-   </td>
-   <td><center><a href="#openModal6-2">View</a></center>
-    <div id="openModal6-2" class="modalDialog">
-  	<div>
-  		<a href="#close" title="Close" class="close">X</a>
-      <center>
-      <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/idmode6.avi.gif" style="width: 800px;" >
-      <p><i>Identification Results Mode 6</i></p>
-      </center>
-  	</div>
-    </div>
-   </td>
-  </tr>
+
 </table>
 
 <table id="myTable2">
@@ -432,35 +400,31 @@ datadl: Available
     <center>
     <div class="slideshow-container">
      <div class="mySlides3" >
-       <div class="numbertext">1 / 6</div>
+       <div class="numbertext">1 / 5</div>
        <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/mode1.png" style="width:80%">
        <div class="text"></div>
      </div>
 
      <div class="mySlides3">
-       <div class="numbertext">2 / 6</div>
+       <div class="numbertext">2 / 5</div>
        <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/mode2.png" style="width:80%">
      </div>
 
      <div class="mySlides3">
-       <div class="numbertext">3 / 6</div>
+       <div class="numbertext">3 / 5</div>
        <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/mode3.png" style="width:80%">
      </div>
 
      <div class="mySlides3">
-       <div class="numbertext">4 / 6</div>
+       <div class="numbertext">4 / 5</div>
        <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/mode4.png" style="width:80%">
      </div>
 
      <div class="mySlides3">
-       <div class="numbertext">5 / 6</div>
+       <div class="numbertext">5 / 5</div>
        <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/mode5.png" style="width:80%">
      </div>
 
-     <div class="mySlides3">
-       <div class="numbertext">6 / 6</div>
-       <img src="{{ site.baseurl }}/img/database/16-10-28-brodie/mode6.png" style="width:80%">
-     </div>
 
      <a class="prev" onclick="plusSlides3(-1)">&#10094;</a>
      <a class="next" onclick="plusSlides3(1)">&#10095;</a>
@@ -473,7 +437,6 @@ datadl: Available
    <span class="dot3" onclick="currentSlide3(3)"></span>
    <span class="dot3" onclick="currentSlide3(4)"></span>
    <span class="dot3" onclick="currentSlide3(5)"></span>
-   <span class="dot3" onclick="currentSlide3(6)"></span>
    </div>
    </center>
    <script src="{{ site.baseurl }}/js/slideshow3.js"></script>
