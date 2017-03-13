@@ -541,10 +541,10 @@ datadl: Available
 
 <table id="myTable2">
  <tr>
-  <td style="width:50%">
+  <td style="width:100%">
     <center>
 
-
+      <div class="slideshow-container">
         <div class="mySlides2">
           <div class="numbertext">1 / 3</div>
           <img src="{{ site.baseurl}}/img/database/2015-02-28-Baker-Bridge-singlesetup/unlaw-setup/mode1_6.png" style="width:600px">
@@ -557,7 +557,7 @@ datadl: Available
           <div class="text"></div>
         </div>
 
-        <div class="slideshow-container">
+
          <div class="mySlides2">
            <div class="numbertext">3 / 3</div>
            <img src="{{ site.baseurl}}/img/database/2015-02-28-Baker-Bridge-singlesetup/unlaw-setup/mode13_17.png" style="width:600px">
