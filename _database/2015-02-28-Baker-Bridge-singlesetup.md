@@ -61,7 +61,7 @@ datadl: Available
   <tr>
   <td class="header"><b>Data</b></td>
   <td>
-    <a href=" http://gofile.me/3sin6/5eAugT3Vl "><b>Download</b></a> (6MB)
+    <a href="<!-- http://gofile.me/3sin6/5eAugT3Vl -->"><b>Download </b></a> (6MB)
   </td>
   </tr>
 </table>
