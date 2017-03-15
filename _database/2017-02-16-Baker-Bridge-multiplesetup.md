@@ -5,7 +5,7 @@ date: 2017-02-16 00:00:00
 author: Binbin Li (uol)
 setupno: 16
 locationno: 34
-datadl: Available
+datadl: Not Available
 ---
 
 ## Test Information
@@ -61,7 +61,8 @@ datadl: Available
   <tr>
   <td class="header"><b>Data</b></td>
   <td>
-    <a href="<!-- http://gofile.me/3sin6/wSBynPspF --> "><b>Download</b></a> (22MB)
+    <!--<a href="http://gofile.me/3sin6/wSBynPspF"><b>Download</b></a> (22MB) -->
+    N/A
   </td>
   </tr>
 </table>
