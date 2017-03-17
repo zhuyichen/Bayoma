@@ -5,7 +5,7 @@ date: 2016-05-24 16:05:00
 author: Yichen Zhu
 setupno: 7
 locationno: 29
-datadl: Available
+datadl: Not Available
 ---
 
 ## Test Information
@@ -60,7 +60,8 @@ datadl: Available
   <tr>
   <td class="header"><b>Data</b></td>
   <td>
-    <a href="http://gofile.me/3sin6/YJvW4c0o4"><b>Download</b></a> (24.7Mb)
+    <!-- <a href="http://gofile.me/3sin6/YJvW4c0o4"><b>Download</b></a> (24.7Mb) -->
+    N/A
   </td>
   </tr>
 </table>
