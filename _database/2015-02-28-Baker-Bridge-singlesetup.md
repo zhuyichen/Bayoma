@@ -40,11 +40,11 @@ datadl: Not Available
   </tr>
   <tr>
     <td class="header"><b>Equipment</b></td>
-    <td> Honeywell QA-700 </td>
+    <td> 16 serve-accelerometers with 24 bit SSH </td>
   </tr>
   <tr>
     <td class="header"><b>No. of Participants</b></td>
-    <td> N/A </td>
+    <td> 4 </td>
   </tr>
   <tr>
     <td class="header"><b>No. of Setups</b></td>
@@ -56,7 +56,7 @@ datadl: Not Available
   </tr>
   <tr>
     <td class="header"><b>Contributer</b></td>
-    <td> James BrownJohn (University of Exeter); Siu-Kui Au, Bin-Bin Li (University of Liverpool) </td>
+    <td> James Brownjohn, Mateusz Bocian, David Hester, Yan Xu (University of Exeter) </td>
   </tr>
   <tr>
   <td class="header"><b>Data</b></td>
@@ -66,6 +66,8 @@ datadl: Not Available
   </td>
   </tr>
 </table>
+
+#### * Remark: data unit g; outliers exist around 265 sec in Channel 10
 
 ## Setup and Gallery
 ---
@@ -87,19 +89,35 @@ datadl: Not Available
         </div>
 
         <div class="mySlides">
-          <div class="numbertext">2 / 2</div>
+          <div class="numbertext">2 / 4</div>
           <img src="{{ site.baseurl}}/img/database/2015-02-28-Baker-Bridge-singlesetup/photo/Layout.png" style="width:80%">
           <div class="text"></div>
         </div>
 
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+       <div class="mySlides">
+         <div class="numbertext">3 / 4</div>
+         <img src="{{ site.baseurl}}/img/database/2015-02-28-Baker-Bridge-singlesetup/photo/1.jpg" style="width:40%">
+         <div class="text"></div>
        </div>
+
+       <div class="mySlides">
+         <div class="numbertext">4 / 4</div>
+         <img src="{{ site.baseurl}}/img/database/2015-02-28-Baker-Bridge-singlesetup/photo/2.jpg" style="width:80%">
+         <div class="text"></div>
+       </div>
+
+       <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+       <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
        <br>
 
       <div style="text-align:center">
         <span class="dot" onclick="currentSlide(1)"></span>
         <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
       </div>
       <script src="{{ site.baseurl }}/js/slideshow.js"></script>
     </center>
