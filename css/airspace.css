@@ -98,7 +98,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider Start
 --*/
 #slider {
-  background: url("../img/slider-bg.jpg") no-repeat;
+  background: url("../img/mode9.png") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: 10% 0%;
@@ -139,16 +139,24 @@ font header .navbar-default .navbar-nav li a:hover {
 	wrapper Start
 --*/
 #intro {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 #intro .block h2 {
-  padding-top: 35px;
+  /*--
+  padding-top: 10px;
   line-height: 27px;
   margin: 0;
+  --*/
+
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 30px;
 }
 #intro .block p {
-  color: #7B7B7B;
+
+  font-size: 20px;
   padding-top: 20px;
+  text-align: justify;
 }
 #intro .block img {
   padding-left: 40px;
@@ -159,6 +167,12 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #intro .section-title p {
   padding-top: 20px;
+}
+
+#intro .btn-link-a {
+  background: #655E7A;
+  color: #fff;
+  padding: 10px 20px;
 }
 /*--
 	service Start
@@ -190,13 +204,10 @@ font header .navbar-default .navbar-nav li a:hover {
 	call-to-action Start
 --*/
 #call-to-action {
-  background: url("../img/call-to-action-bg.jpg") no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
   padding: 70px 0px;
   position: relative;
   text-align: center;
-  color: #fff;
+
 }
 #call-to-action:before {
   content: "";
@@ -207,32 +218,31 @@ font header .navbar-default .navbar-nav li a:hover {
   bottom: 0;
   width: 100%;
   height: 100%;
-  background: #1d192c;
+
   opacity: 0.8;
 }
 #call-to-action h2 {
-  padding-bottom: 20px;
-  line-height: 33px;
-  margin: 0;
-  font-size: 30px;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 30px;
 }
 #call-to-action p {
-  font-size: 14px;
-  line-height: 1.6;
+  color: #7B7B7B;
+  font-size: 20px;
+  padding-top: 20px;
 }
 #call-to-action .btn-call-to-action {
-  padding: 15px 35px;
+  padding: 10px 20px;
   border: none;
-  background-color: #fff;
-  font-size: 15px;
-  color: #333333;
+  background: #655E7A;
+  color: #fff;
   margin-top: 30px;
 }
 /*--
 	Feature Start
 --*/
 #feature {
-  background: url("../img/featue-bg.jpg");
+  background: url("../img/hprg.jpg");
   background-position: 50% 94px;
   width: 100%;
   display: block;
@@ -252,6 +262,8 @@ font header .navbar-default .navbar-nav li a:hover {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   padding: 100px 0;
+  text-align: center;
+
 }
 #feature h2 {
   font-size: 28px;
@@ -259,7 +271,11 @@ font header .navbar-default .navbar-nav li a:hover {
   margin-bottom: 30px;
 }
 #feature p {
+  /*--
   color: #8d8f92;
+  --*/
+  font-size: 20px;
+  font-weight: 600;
   margin-bottom: 20px;
 }
 #feature .btn-view-works {
@@ -361,8 +377,8 @@ font header .navbar-default .navbar-nav li a:hover {
 #global-header {
   background: url("../img/slider-bg.jpg") no-repeat;
   background-size: cover;
-  padding-top: 150px;
-  padding-bottom: 107px;
+  padding-top: 35px;
+  padding-bottom: 25px;
   position: relative;
   background-attachment: fixed;
 }
@@ -393,10 +409,18 @@ font header .navbar-default .navbar-nav li a:hover {
   text-transform: capitalize;
 }
 #global-header .block p {
+  /*--
   font-size: 16px;
   font-weight: 300;
   letter-spacing: 1px;
   word-spacing: 3px;
+  --*/
+  font-size: 23px;
+  line-height: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
 }
 /*--
 	portfolio-work Start
@@ -1055,4 +1079,42 @@ footer .footer-manu ul li a:hover {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+/* Style the links inside the sidenav */
+#mySidenav a {
+    position:fixed; /* Position them relative to the browser window */
+    left: -15px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px 15px 15px 30px;  /* 15px padding */
+    width: 250px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+
+#mySidenav a:hover {
+    left: 0px; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#researchinterestnav {
+    top: 320px;
+    background-color: #555;
+}
+
+#groupmembernav {
+    top: 380px;
+    background-color: #555;
+}
+
+#equipmentnav {
+    top: 440px;
+    background-color: #555; 
+}
+
+#othergroupnav {
+    top: 500px;
+    background-color: #555 /* Light Black */
 }
