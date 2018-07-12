@@ -128,6 +128,7 @@ datadl: Not Available
     <center>
 
           <img src="{{ site.baseurl}}/img/database/2017-12-10-Lab-model-close-modes/psd/root_psd_data01.png" style="width:80%">
+          <p> Root Power Spectrum  </p>
 
    </center>
 
@@ -139,6 +140,7 @@ datadl: Not Available
 
 
           <img src="{{ site.baseurl}}/img/database/2017-12-10-Lab-model-close-modes/sv/root_sv_data01.png" style="width:80%">
+          <p> Root Singular Value Spectrum  </p>
   </center>
   </td>
  </tr>

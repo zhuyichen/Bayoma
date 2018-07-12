@@ -135,6 +135,7 @@ datadl: Not Available
   <td style="width:100%">
     <center>
           <img src="{{ site.baseurl}}/img/database/2017-12-04-Lab-model-close-modes-with-tmd/psd/root_psd_data01.png" style="width:80%">
+          <p> Root Power Spectrum </p>
    </center>
   </td>
  </tr>
@@ -142,6 +143,7 @@ datadl: Not Available
   <td style="width:100%">
     <center>
           <img src="{{ site.baseurl}}/img/database/2017-12-04-Lab-model-close-modes-with-tmd/sv/root_sv_data01.png" style="width:80%">
+          <p> Root Singular Value Spectrum  </p>
    </center>
   </td>
  </tr>
@@ -230,7 +232,7 @@ datadl: Not Available
 	   <div>
 		<a href="#close" title="Close" class="close">X</a>
       <center>
-       <img src="{{ site.baseurl}}/img/database/2017-12-04-Lab-model-close-modes-with-tmd/modeshape/mode10.gif" style="width: 800px;" >
+       <img src="{{ site.baseurl}}/img/database/2017-12-04-Lab-model-close-modes-with-tmd/modeshape/mode2.gif" style="width: 800px;" >
        <p><i>Identification Results Mode 2</i></p>
       </center>
 	   </div>
@@ -262,7 +264,7 @@ datadl: Not Available
 	   <div>
 		<a href="#close" title="Close" class="close">X</a>
       <center>
-       <img src="{{ site.baseurl}}/img/database/2017-12-04-Lab-model-close-modes-with-tmd/modeshape/mode11.gif" style="width: 800px;" >
+       <img src="{{ site.baseurl}}/img/database/2017-12-04-Lab-model-close-modes-with-tmd/modeshape/mode3.gif" style="width: 800px;" >
        <p><i>Identification Results Mode 3</i></p>
       </center>
 	   </div>
@@ -294,7 +296,7 @@ datadl: Not Available
 	   <div>
 		<a href="#close" title="Close" class="close">X</a>
       <center>
-       <img src="{{ site.baseurl}}/img/database/2017-12-04-Lab-model-close-modes-with-tmd/modeshape/mode2.gif" style="width: 800px;" >
+       <img src="{{ site.baseurl}}/img/database/2017-12-04-Lab-model-close-modes-with-tmd/modeshape/mode4.gif" style="width: 800px;" >
        <p><i>Identification Results Mode 4</i></p>
       </center>
 	   </div>
@@ -326,7 +328,7 @@ datadl: Not Available
 	   <div>
 		<a href="#close" title="Close" class="close">X</a>
       <center>
-       <img src="{{ site.baseurl}}/img/database/2017-12-04-Lab-model-close-modes-with-tmd/modeshape/mode3.gif" style="width: 800px;" >
+       <img src="{{ site.baseurl}}/img/database/2017-12-04-Lab-model-close-modes-with-tmd/modeshape/mode5.gif" style="width: 800px;" >
        <p><i>Identification Results Mode 5</i></p>
       </center>
 	   </div>
@@ -358,7 +360,7 @@ datadl: Not Available
 	   <div>
 		<a href="#close" title="Close" class="close">X</a>
       <center>
-       <img src="{{ site.baseurl}}/img/database/2017-12-04-Lab-model-close-modes-with-tmd/modeshape/mode4.gif" style="width: 800px;" >
+       <img src="{{ site.baseurl}}/img/database/2017-12-04-Lab-model-close-modes-with-tmd/modeshape/mode6.gif" style="width: 800px;" >
        <p><i>Identification Results Mode 6</i></p>
       </center>
 	   </div>
@@ -390,7 +392,7 @@ datadl: Not Available
 	   <div>
 		<a href="#close" title="Close" class="close">X</a>
       <center>
-       <img src="{{ site.baseurl}}/img/database/2017-12-04-Lab-model-close-modes-with-tmd/modeshape/mode5.gif" style="width: 800px;" >
+       <img src="{{ site.baseurl}}/img/database/2017-12-04-Lab-model-close-modes-with-tmd/modeshape/mode7.gif" style="width: 800px;" >
        <p><i>Identification Results Mode 7</i></p>
       </center>
 	   </div>
@@ -422,7 +424,7 @@ datadl: Not Available
 	   <div>
 		<a href="#close" title="Close" class="close">X</a>
       <center>
-       <img src="{{ site.baseurl}}/img/database/2017-12-04-Lab-model-close-modes-with-tmd/modeshape/mode6.gif" style="width: 800px;" >
+       <img src="{{ site.baseurl}}/img/database/2017-12-04-Lab-model-close-modes-with-tmd/modeshape/mode8.gif" style="width: 800px;" >
        <p><i>Identification Results Mode 8</i></p>
       </center>
 	   </div>
@@ -454,7 +456,7 @@ datadl: Not Available
 	   <div>
 		<a href="#close" title="Close" class="close">X</a>
       <center>
-       <img src="{{ site.baseurl}}/img/database/2017-12-04-Lab-model-close-modes-with-tmd/modeshape/mode7.gif" style="width: 800px;" >
+       <img src="{{ site.baseurl}}/img/database/2017-12-04-Lab-model-close-modes-with-tmd/modeshape/mode9.gif" style="width: 800px;" >
        <p><i>Identification Results Mode 9</i></p>
       </center>
 	   </div>
@@ -486,7 +488,7 @@ datadl: Not Available
 	   <div>
 		<a href="#close" title="Close" class="close">X</a>
       <center>
-       <img src="{{ site.baseurl}}/img/database/2017-12-04-Lab-model-close-modes-with-tmd/modeshape/mode8.gif" style="width: 800px;" >
+       <img src="{{ site.baseurl}}/img/database/2017-12-04-Lab-model-close-modes-with-tmd/modeshape/mode10.gif" style="width: 800px;" >
        <p><i>Identification Results Mode 10</i></p>
       </center>
 	   </div>
@@ -518,7 +520,7 @@ datadl: Not Available
 	   <div>
 		<a href="#close" title="Close" class="close">X</a>
       <center>
-       <img src="{{ site.baseurl}}/img/database/2017-12-04-Lab-model-close-modes-with-tmd/modeshape/mode9.gif" style="width: 800px;" >
+       <img src="{{ site.baseurl}}/img/database/2017-12-04-Lab-model-close-modes-with-tmd/modeshape/mode11.gif" style="width: 800px;" >
        <p><i>Identification Results Mode 11</i></p>
       </center>
 	   </div>
